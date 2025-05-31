@@ -28,7 +28,7 @@ const allProducts = await Products.find()
         
 }
 
-app.get("/", async (req, res) =>{
+app.get("/products", async (req, res) =>{
     try {
           const products = await readAllProducts()
           res.status(200).json({products})
@@ -91,7 +91,7 @@ const productsByCategory = await Products.find(productCategory)
         
 }
 
-app.get("/products/category/:productCategory", async (req, res) =>{
+app.get("/products/category/read/:productCategory", async (req, res) =>{
     try {
           const product = await readProductsByCategory(req.params.productCategory)
           res.status(200).json({product})
