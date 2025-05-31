@@ -61,7 +61,7 @@ app.get("/products/:productId", async (req, res) =>{
 
 async function readProductByName(productName) {
     try{
-const productByName = await Products.find({ name: productName })
+const productByName = await Products.find({  name: { $regex: new RegExp(productName, "i") } })
     return productByName;
     } catch (error){
         throw error
@@ -91,7 +91,7 @@ const productsByCategory = await Products.find({ category: productCategory })
         
 }
 
-app.get("/products/category/read/:productCategory", async (req, res) =>{
+app.get("/products/by-category/:productCategory", async (req, res) =>{
     try {
           const product = await readProductsByCategory(req.params.productCategory)
           res.status(200).json({product})
