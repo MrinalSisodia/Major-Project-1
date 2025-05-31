@@ -2,6 +2,7 @@ const express = require("express")
 
 const app = express()
 const {initializeDatabase} = require("./db/db.connect")
+app.use(express.json())
 const cors = require("cors");
 
 const corsOptions = {
@@ -113,8 +114,8 @@ async function createProduct(newProduct){
 
 app.post("/products", async (req,res) => {
     try {
-       const product = await createProduct(req.body)
-        res.status(201).json({message: "Product seeded to database.", product: product})
+       const newProduct = await createProduct(req.body)
+        res.status(201).json({message: "Product seeded to database.", product: newProduct})
     } catch (error) {
         res.status(500).json({error: "Failed to add product"})
     }
