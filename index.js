@@ -61,7 +61,7 @@ app.get("/products/:productId", async (req, res) =>{
 
 async function readProductByName(productName) {
     try{
-const productByName = await Products.find(productName)
+const productByName = await Products.find({ name: productName })
     return productByName;
     } catch (error){
         throw error
@@ -82,7 +82,7 @@ app.get("/products/by-name/:productName", async (req, res) =>{
 
 async function readProductsByCategory(productCategory) {
     try{
-const productsByCategory = await Products.find(productCategory)
+const productsByCategory = await Products.find({ category: productCategory })
     return productsByCategory;
     } catch (error){
         throw error
