@@ -34,6 +34,7 @@ app.get("/products", async (req, res) =>{
           res.status(200).json({products})
     } catch (error) {
         res.status(500).json({error: "Failed to fetch products."})
+        console.log(error)
     }
 
 })
