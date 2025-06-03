@@ -15,14 +15,18 @@ price : {
     type: Number,
     required: true
 }, 
-image : {
+imageUrl : {
     type: String,
     required: true
 }, 
 rating : {
     type: String,
     required: true
-}, 
+},
+subCategory: {
+    type: String,
+    required: true
+} 
 })
 
 const Products = mongoose.model("Products", ProductSchema)
