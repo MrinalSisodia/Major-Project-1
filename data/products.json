@@ -5,7 +5,7 @@
     "subCategory": "Shirts",
     "price": 35.91,
     "imageUrl": "https://images.pexels.com/photos/32354010/pexels-photo-32354010/free-photo-of-man-in-smart-casual-walks-on-pathway-outdoors.jpeg",
-    "rating": "3.4"
+    "rating": 3.4
   },
   {
     "name": "Mens Trousers Item 2",
@@ -13,7 +13,7 @@
     "subCategory": "Bottoms",
     "price": 133.59,
     "imageUrl": "https://images.pexels.com/photos/16594455/pexels-photo-16594455/free-photo-of-man-posing-in-jacket.jpeg",
-    "rating": "3.4"
+    "rating": 3.4
   },
   {
     "name": "Mens Blue Shoes",
@@ -21,7 +21,7 @@
     "subCategory": "Shoes",
     "price": 13.94,
     "imageUrl": "https://images.pexels.com/photos/19090/pexels-photo.jpg",
-    "rating": "4.9"
+    "rating": 4.9
   },
   {
     "name": "Mens T-Shirt",
@@ -29,7 +29,7 @@
     "subCategory": "Shirts",
     "price": 82.59,
     "imageUrl": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg",
-    "rating": "3.9"
+    "rating": 3.9
   },
   {
     "name": "Mens Trousers 2",
@@ -37,7 +37,7 @@
     "subCategory": "Bottoms",
     "price": 24.37,
     "imageUrl": "https://images.pexels.com/photos/16594455/pexels-photo-16594455/free-photo-of-man-posing-in-jacket.jpeg",
-    "rating": "4.6"
+    "rating": 4.6
   },
   {
     "name": "Mens Sneakers",
@@ -45,7 +45,7 @@
     "subCategory": "Shoes",
     "price": 223.58,
     "imageUrl": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
-    "rating": "4.8"
+    "rating": 4.8
   },
   {
     "name": "Mens Blue Shirt",
@@ -53,7 +53,7 @@
     "subCategory": "Shirts",
     "price": 216.64,
     "imageUrl": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
-    "rating": "3.3"
+    "rating": 3.3
   },
   {
     "name": "Mens Trousers 3",
@@ -61,7 +61,7 @@
     "subCategory": "Bottoms",
     "price": 288.77,
     "imageUrl": "https://images.pexels.com/photos/16594455/pexels-photo-16594455/free-photo-of-man-posing-in-jacket.jpeg",
-    "rating": "3.2"
+    "rating": 3.2
   },
   {
     "name": "Mens Shoes Item 9",
@@ -69,7 +69,7 @@
     "subCategory": "Shoes",
     "price": 67.56,
     "imageUrl": "https://images.pexels.com/photos/19090/pexels-photo.jpg",
-    "rating": "4.1"
+    "rating": 4.1
   },
   {
     "name": "Mens Blue Shirt 2",
@@ -85,7 +85,7 @@
     "subCategory": "Trousers",
     "price": 125.5,
     "imageUrl": "https://images.pexels.com/photos/16594455/pexels-photo-16594455/free-photo-of-man-posing-in-jacket.jpeg",
-    "rating": "3.5"
+    "rating": 3.5
   },
   {
     "name": "Mens Shoes Item 12",
@@ -93,7 +93,7 @@
     "subCategory": "Shoes",
     "price": 85.39,
     "imageUrl": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
-    "rating": "4.0"
+    "rating": 4.0
   },
   {
     "name": "Womens Dress 1",
@@ -101,7 +101,7 @@
     "subCategory": "Dresses",
     "price": 243.36,
     "imageUrl": "https://images.pexels.com/photos/833185/pexels-photo-833185.jpeg",
-    "rating": "4.0"
+    "rating": 4.0
   },
   {
     "name": "Womens Heels Item 14",
@@ -109,7 +109,7 @@
     "subCategory": "Footwear",
     "price": 195.99,
     "imageUrl": "https://images.pexels.com/photos/3782786/pexels-photo-3782786.jpeg",
-    "rating": "4.3"
+    "rating": 4.3
   },
   {
     "name": "Womens Handbags Item 15",
@@ -117,7 +117,7 @@
     "subCategory": "Handbags",
     "price": 292.6,
     "imageUrl": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg",
-    "rating": "4.8"
+    "rating": 4.8
   },
   {
     "name": "Womens Dresses Item 16",
@@ -125,7 +125,7 @@
     "subCategory": "Dresses",
     "price": 113.08,
     "imageUrl": "https://images.pexels.com/photos/833185/pexels-photo-833185.jpeg",
-    "rating": "3.4"
+    "rating": 3.4
   },
   {
     "name": "Womens Heels Item 17",
@@ -133,7 +133,7 @@
     "subCategory": "Footwear",
     "price": 207.36,
     "imageUrl": "https://images.pexels.com/photos/963457/pexels-photo-963457.jpeg",
-    "rating": "3.1"
+    "rating": 3.1
   },
   {
     "name": "Womens Handbags Item 18",
@@ -141,7 +141,7 @@
     "subCategory": "Handbags",
     "price": 75.96,
     "imageUrl": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg",
-    "rating": "4.8"
+    "rating": 4.8
   },
   {
     "name": "Womens Dresses Item 19",
@@ -149,7 +149,7 @@
     "subCategory": "Dresses",
     "price": 227.2,
     "imageUrl": "https://images.pexels.com/photos/833185/pexels-photo-833185.jpeg",
-    "rating": "3.8"
+    "rating": 3.8
   },
   {
     "name": "Womens Heels Black",
@@ -157,7 +157,7 @@
     "subCategory": "Footwear",
     "price": 142.75,
     "imageUrl": "https://images.pexels.com/photos/963457/pexels-photo-963457.jpeg",
-    "rating": "4.5"
+    "rating": 4.5
   },
   {
     "name": "Womens Handbag 3",
@@ -165,7 +165,7 @@
     "subCategory": "Handbags",
     "price": 191.03,
     "imageUrl": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg",
-    "rating": "3.6"
+    "rating": 3.6
   },
   {
     "name": "Womens Black Dress",
@@ -173,7 +173,7 @@
     "subCategory": "Dresses",
     "price": 173.8,
     "imageUrl": "https://images.pexels.com/photos/792772/pexels-photo-792772.jpeg",
-    "rating": "4.9"
+    "rating": 4.9
   },
   {
     "name": "Womens Heels Item 23",
@@ -181,7 +181,7 @@
     "subCategory": "Footwear",
     "price": 31.59,
     "imageUrl": "https://images.pexels.com/photos/963457/pexels-photo-963457.jpeg",
-    "rating": "4.2"
+    "rating": 4.2
   },
   {
     "name": "Womens Handbags Item 24",
@@ -189,7 +189,7 @@
     "subCategory": "Handbags",
     "price": 201.22,
     "imageUrl": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg",
-    "rating": "4.4"
+    "rating": 4.4
   },
   {
     "name": "Kids Toy 1",
@@ -197,7 +197,7 @@
     "subCategory": "Toys",
     "price": 10.7,
     "imageUrl": "https://images.pexels.com/photos/3662664/pexels-photo-3662664.jpeg",
-    "rating": "3.7"
+    "rating": 3.7
   },
   {
     "name": "Kids Sweater",
@@ -205,7 +205,7 @@
     "subCategory": "Clothes",
     "price": 122.42,
     "imageUrl": "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg",
-    "rating": "4.8"
+    "rating": 4.8
   },
   {
     "name": "Kids Shoes",
@@ -213,7 +213,7 @@
     "subCategory": "Shoes",
     "price": 246.47,
     "imageUrl": "https://images.pexels.com/photos/1842182/pexels-photo-1842182.jpeg",
-    "rating": "3.6"
+    "rating": 3.6
   },
   {
     "name": "Kids Toys Item 2",
@@ -221,7 +221,7 @@
     "subCategory": "Toys",
     "price": 29.33,
     "imageUrl": "https://images.pexels.com/photos/3662664/pexels-photo-3662664.jpeg",
-    "rating": "3.1"
+    "rating": 3.1
   },
   {
     "name": "Kids Clothes Item 2",
@@ -229,7 +229,7 @@
     "subCategory": "Clothes",
     "price": 281.89,
     "imageUrl": "https://images.pexels.com/photos/32315506/pexels-photo-32315506/free-photo-of-young-girl-holding-balloons-outdoors-near-house.jpeg",
-    "rating": "4.4"
+    "rating": 4.4
   },
   {
     "name": "Kids Shoes Item 2",
@@ -237,7 +237,7 @@
     "subCategory": "Shoes",
     "price": 123.92,
     "imageUrl": "https://images.pexels.com/photos/1842182/pexels-photo-1842182.jpeg",
-    "rating": "4.0"
+    "rating": 4.0
   },
   {
     "name": "Kids Toys Item 3",
@@ -245,7 +245,7 @@
     "subCategory": "Toys",
     "price": 74.43,
     "imageUrl": "https://images.pexels.com/photos/3662664/pexels-photo-3662664.jpeg",
-    "rating": "3.8"
+    "rating": 3.8
   },
   {
     "name": "Kids Clothes Item 3",
@@ -253,7 +253,7 @@
     "subCategory": "Clothes",
     "price": 233.91,
     "imageUrl": "https://images.pexels.com/photos/5559986/pexels-photo-5559986.jpeg",
-    "rating": "3.1"
+    "rating": 3.1
   },
   {
     "name": "Kids Shoes Item 3",
@@ -261,7 +261,7 @@
     "subCategory": "Shoes",
     "price": 273.55,
     "imageUrl": "https://images.pexels.com/photos/1842182/pexels-photo-1842182.jpeg",
-    "rating": "4.6"
+    "rating": 4.6
   },
   {
     "name": "Kids Toys Item 4",
@@ -269,7 +269,7 @@
     "subCategory": "Toys",
     "price": 91.14,
     "imageUrl": "https://images.pexels.com/photos/3662664/pexels-photo-3662664.jpeg",
-    "rating": "3.7"
+    "rating": 3.7
   },
   {
     "name": "Kids Clothes Item 4",
@@ -277,7 +277,7 @@
     "subCategory": "Clothes",
     "price": 22.24,
     "imageUrl": "https://images.pexels.com/photos/5559986/pexels-photo-5559986.jpeg",
-    "rating": "3.6"
+    "rating": 3.6
   },
   {
     "name": "Kids Shoes Item 4",
@@ -285,7 +285,7 @@
     "subCategory": "Shoes",
     "price": 120.8,
     "imageUrl": "https://images.pexels.com/photos/1842182/pexels-photo-1842182.jpeg",
-    "rating": "4.2"
+    "rating": 4.2
   },
   {
     "name": "Laptop Item 1",
@@ -293,7 +293,7 @@
     "subCategory": "Laptops",
     "price": 253.08,
     "imageUrl": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "rating": "3.6"
+    "rating": 3.6
   },
   {
     "name": "Mobile Item 1",
@@ -301,7 +301,7 @@
     "subCategory": "Mobiles",
     "price": 160.87,
     "imageUrl": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
-    "rating": "4.7"
+    "rating": 4.7
   },
   {
     "name": "Headphones Item 2",
@@ -309,7 +309,7 @@
     "subCategory": "Headphones",
     "price": 249.37,
     "imageUrl": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg",
-    "rating": "3.8"
+    "rating": 3.8
   },
   {
     "name": "Laptop Item 2",
@@ -317,7 +317,7 @@
     "subCategory": "Laptop",
     "price": 46.84,
     "imageUrl": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "rating": "4.5"
+    "rating": 4.5
   },
   {
     "name": "Mobile Item 2",
@@ -325,7 +325,7 @@
     "subCategory": "Mobile",
     "price": 240.29,
     "imageUrl": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
-    "rating": "5.0"
+    "rating": 5.0
   },
   {
     "name": " Headphones Item 2",
@@ -333,7 +333,7 @@
     "subCategory": "Headphones",
     "price": 227.75,
     "imageUrl": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg",
-    "rating": "3.4"
+    "rating": 3.4
   },
   {
     "name": "Laptop Item 3",
@@ -341,7 +341,7 @@
     "subCategory": "Laptop",
     "price": 161.38,
     "imageUrl": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "rating": "4.6"
+    "rating": 4.6
   },
   {
     "name": "Mobile Item 3",
@@ -349,7 +349,7 @@
     "subCategory": "Mobile",
     "price": 29.34,
     "imageUrl": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
-    "rating": "4.4"
+    "rating": 4.4
   },
   {
     "name": "Electronics Headphones Item 3",
@@ -357,7 +357,7 @@
     "subCategory": "Headphones",
     "price": 271.79,
     "imageUrl": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg",
-    "rating": "3.2"
+    "rating": 3.2
   },
   {
     "name": "Laptop Item 4",
@@ -365,7 +365,7 @@
     "subCategory": "Laptop",
     "price": 104.55,
     "imageUrl": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "rating": "4.7"
+    "rating": 4.7
   },
   {
     "name": "Mobile Item 4",
@@ -373,7 +373,7 @@
     "subCategory": "Mobile",
     "price": 156.88,
     "imageUrl": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
-    "rating": "3.7"
+    "rating": 3.7
   },
   {
     "name": "Headphones Item 4",
@@ -381,7 +381,7 @@
     "subCategory": "Headphones",
     "price": 38.29,
     "imageUrl": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg",
-    "rating": "3.7"
+    "rating": 3.7
   },
   {
     "name": "Furniture Item 1",
@@ -389,7 +389,7 @@
     "subCategory": "Furniture",
     "price": 184.0,
     "imageUrl": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
-    "rating": "4.9"
+    "rating": 4.9
   },
   {
     "name": "Home Decor Item 1",
@@ -397,7 +397,7 @@
     "subCategory": "Decor",
     "price": 130.02,
     "imageUrl": "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg",
-    "rating": "4.9"
+    "rating": 4.9
   },
   {
     "name": "Home Kitchen Item 1",
@@ -405,7 +405,7 @@
     "subCategory": "Kitchen",
     "price": 260.55,
     "imageUrl": "https://images.pexels.com/photos/16510622/pexels-photo-16510622/free-photo-of-close-up-of-a-frying-pan-with-a-glass-lid.jpeg",
-    "rating": "5.0"
+    "rating": 5.0
   },
   {
     "name": "Home Furniture Item 2",
@@ -413,7 +413,7 @@
     "subCategory": "Furniture",
     "price": 125.44,
     "imageUrl": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
-    "rating": "3.0"
+    "rating": 3.7
   },
   {
     "name": "Home Decor Item 2",
@@ -421,7 +421,7 @@
     "subCategory": "Decor",
     "price": 109.73,
     "imageUrl": "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg",
-    "rating": "4.4"
+    "rating": 4.4
   },
   {
     "name": "Home Kitchen Item 2",
@@ -429,7 +429,7 @@
     "subCategory": "Kitchen",
     "price": 104.12,
     "imageUrl": "https://images.pexels.com/photos/16510622/pexels-photo-16510622/free-photo-of-close-up-of-a-frying-pan-with-a-glass-lid.jpeg",
-    "rating": "3.7"
+    "rating": 3.7
   },
   {
     "name": "Home Furniture Item 3",
@@ -437,7 +437,7 @@
     "subCategory": "Furniture",
     "price": 235.21,
     "imageUrl": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
-    "rating": "3.9"
+    "rating": 3.9
   },
   {
     "name": "Home Decor Item 3",
@@ -445,7 +445,7 @@
     "subCategory": "Decor",
     "price": 95.28,
     "imageUrl": "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg",
-    "rating": "3.6"
+    "rating": 3.6
   },
   {
     "name": "Home Kitchen Item 3",
@@ -453,7 +453,7 @@
     "subCategory": "Kitchen",
     "price": 59.71,
     "imageUrl": "https://images.pexels.com/photos/16510622/pexels-photo-16510622/free-photo-of-close-up-of-a-frying-pan-with-a-glass-lid.jpeg",
-    "rating": "3.8"
+    "rating": 3.8
   },
   {
     "name": "Home Furniture Item 4",
@@ -461,7 +461,7 @@
     "subCategory": "Furniture",
     "price": 265.48,
     "imageUrl": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
-    "rating": "4.2"
+    "rating": 4.2
   },
   {
     "name": "Home Decor Item 4",
@@ -469,7 +469,7 @@
     "subCategory": "Decor",
     "price": 49.72,
     "imageUrl": "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg",
-    "rating": "4.9"
+    "rating": 4.9
   },
   {
     "name": "Home Kitchen Item 4",
@@ -477,6 +477,6 @@
     "subCategory": "Kitchen",
     "price": 229.43,
     "imageUrl": "https://images.pexels.com/photos/16510622/pexels-photo-16510622/free-photo-of-close-up-of-a-frying-pan-with-a-glass-lid.jpeg",
-    "rating": "4.1"
+    "rating": 4.1
   }
 ]

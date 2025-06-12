@@ -1,25 +1,30 @@
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const Product = require('./models/Product');
-const products = require('./data/products.json');
-
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 dotenv.config();
+
+const Products = require("./models/product.model");
+const products = require("./data/products.json");
+
+const MONGODB_URI = process.env.MONGODB;
 
 async function seedDB() {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(MONGODB_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     console.log("Connected to MongoDB Atlas");
 
-    // Optional: clear existing collection
-    // await Product.deleteMany({});
+    await Products.deleteMany({});
 
-    const result = await Product.insertMany(products);
+    const result = await Products.insertMany(products);
     console.log(`Inserted ${result.length} products`);
 
-    mongoose.disconnect();
+    await mongoose.disconnect();
+    console.log("Disconnected from MongoDB");
   } catch (error) {
     console.error("Error seeding data:", error);
-    mongoose.disconnect();
+    await mongoose.disconnect();
   }
 }
 

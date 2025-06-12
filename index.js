@@ -83,7 +83,9 @@ app.get("/products/by-name/:productName", async (req, res) =>{
 
 async function readProductsByCategory(productCategory) {
     try{
-const productsByCategory = await Products.find({ category: productCategory })
+const productsByCategory = await Products.find({
+  category: new RegExp(`^${req.params.productCategory}$`, 'i')
+});
     return productsByCategory;
     } catch (error){
         throw error
