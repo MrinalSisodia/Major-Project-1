@@ -82,27 +82,26 @@ app.get("/products/by-name/:productName", async (req, res) =>{
 })
 
 async function readProductsByCategory(productCategory) {
-    try{
-const productsByCategory = await Products.find({
-  category: new RegExp(`^${req.params.productCategory}$`, 'i')
-});
+  try {
+    const productsByCategory = await Products.find({
+      category: { $regex: new RegExp(`^${productCategory}$`, "i") }
+    });
     return productsByCategory;
-    } catch (error){
-        throw error
-    }
-
-        
+  } catch (error) {
+    throw error;
+  }
 }
 
-app.get("/products/by-category/:productCategory", async (req, res) =>{
-    try {
-          const product = await readProductsByCategory(req.params.productCategory)
-          res.status(200).json({product})
-    } catch (error) {
-        res.status(500).json({error: "Failed to fetch products."})
-    }
+app.get("/products/by-category/:productCategory", async (req, res) => {
+  try {
+    const product = await readProductsByCategory(req.params.productCategory);
+    res.status(200).json({ product });
+  } catch (error) {
+    console.error("Backend error:", error.message);
+    res.status(500).json({ error: "Failed to fetch products." });
+  }
+});
 
-})
 
 
 async function createProduct(newProduct){
