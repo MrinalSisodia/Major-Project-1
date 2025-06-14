@@ -1,18 +1,7 @@
 const express = require("express")
 
 const app = express()
-async function initializeDatabase() {
-  try {
-    await mongoose.connect(process.env.MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log("MongoDB connected");
-  } catch (error) {
-    console.error("MongoDB connection error, retrying...");
-    setTimeout(initializeDatabase, 3000); // retry after 3s
-  }
-}
+const {initializeDatabase} = require("./db/db.connect")
 
 app.use(express.json())
 const cors = require("cors");
