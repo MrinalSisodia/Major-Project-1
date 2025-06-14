@@ -39,27 +39,6 @@ app.get("/products", async (req, res) =>{
 
 })
 
-async function readProductById(productId) {
-    try{
-const productById = await Products.findById(productId)
-    return productById;
-    } catch (error){
-        throw error
-    }
-
-        
-}
-
-app.get("/products/:productId", async (req, res) =>{
-    try {
-          const product = await readProductById(req.params.productId)
-          res.status(200).json({product})
-    } catch (error) {
-        res.status(500).json({error: "Failed to fetch product."})
-    }
-
-})
-
 async function readProductByName(productName) {
     try{
 const productByName = await Products.find({  name: { $regex: new RegExp(productName, "i") } })
@@ -102,7 +81,26 @@ app.get("/products/by-category/:productCategory", async (req, res) => {
   }
 });
 
+async function readProductById(productId) {
+    try{
+const productById = await Products.findById(productId)
+    return productById;
+    } catch (error){
+        throw error
+    }
 
+        
+}
+
+app.get("/products/:productId", async (req, res) =>{
+    try {
+          const product = await readProductById(req.params.productId)
+          res.status(200).json({product})
+    } catch (error) {
+        res.status(500).json({error: "Failed to fetch product."})
+    }
+
+})
 
 async function createProduct(newProduct){
     try {
